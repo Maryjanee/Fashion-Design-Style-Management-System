@@ -1,0 +1,75 @@
+
+/* General styles*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html,
+body {
+  height: 100%;
+  
+}
+li{
+  list-style:none;
+}
+
+a{
+  color:#000;
+}
+
+
+/* Navigation */
+
+.navbar-brand #logo{
+  font-size:2.5rem;
+  font-family: 'Dancing Script', cursive;
+  color:black;
+}
+.navbar-brand{
+  position: absolute;
+  left:50%;
+  transform:translateX(-50%);
+  top: 10px;
+}
+
+.navbar{
+  padding:1em 0;
+  
+}
+.nav-item{
+  margin-left:1rem;
+}
+
+.navbar-toggler{
+  border:none;
+  outline:none;
+}
+
+/* Background Image */
+
+.banner{
+  position:relative;
+  background: url("../img/firstSlide.jpg") ;
+  background-repeat:no-repeat;
+  min-height:100vh;
+  background-size:cover;
+  background-position: center;
+}
+
+
+.banner-text{
+  font-size:2.2rem;
+  color:aquamarine;
+  padding-left:4%;
+  padding-top:220px;
+  padding-bottom:220px;
+}
+
+
+
+
+
+  
+
