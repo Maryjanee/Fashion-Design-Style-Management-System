@@ -70,6 +70,57 @@ a{
 
 
 
+/* contact.html */
+.contact-section{
+  position: relative;
+  background:url("../img/contact.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding:40px 0;
+  min-height:100vh; 
+}
 
-  
+.contact-form{
+  max-width:600px;
+  margin:auto;
+  padding:0 10px;
+  overflow: hidden;
+  margin-top:100px;
+}
+
+ .contact-form-text{
+   display:block;
+   width:100%;
+   box-sizing: border-box;
+   margin:1rem 0;
+   border:0;
+   background:#111;
+   padding:20px 40px;
+   outline :none;
+   color:#ddd;
+
+ } 
+  .contact-form-text:focus{
+    box-shadow:0 0 10px 4px #34495e;
+
+  }
+  textarea.contact-form-text{
+    resize:none;
+    height:120px;
+  }
+
+  .contact-form-btn{
+    float:right;
+    border:0;
+    background:#34495e;
+    color:#fff;
+    padding:12px 50px;
+    border-radius: 20px;
+    cursor:pointer;
+    transition:0.5s;
+  }
+
+  .contact-form-btn:hover{
+    background:#2980b9;
+  }
 
