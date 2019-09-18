@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "MaryJane",
+      "lastName": "Uche",
+      "password": "myfather",
+      "email": "maryJane@gmail.com",
+      "isAdmin": true
+    }
+  ]
+}
