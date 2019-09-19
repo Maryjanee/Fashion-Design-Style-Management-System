@@ -110,6 +110,12 @@ header a:hover{
 	height:25px;
 	width:250px;
 }
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+grid-gap: 50px 100px;
+ margin: 0 auto;
+}
 /* Boxes */
 #boxes{
 	margin-top:20px;
@@ -154,6 +160,7 @@ footer{
 	background:#35424a;
 	text-align:center;
 }
+
 /* Media Queries */
 @media(max-width:768px){
 	header #brand,
@@ -357,3 +364,4 @@ input {
         font-size :13px;
     }
 }
+
