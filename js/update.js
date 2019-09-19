@@ -12,7 +12,7 @@ function updateDesign() {
       alert("Please enter the image url of the design to be updated");
     }
     else {
-      $.get(url + `?imageUrl=${imageUrl}`, (data) => {
+      $.get(url + `/?imageUrl=${imageUrl}`, (data) => {
         const gottenId = data[0].id;
         const ctgry = data[0].category;
         const desSize = data[0].size;

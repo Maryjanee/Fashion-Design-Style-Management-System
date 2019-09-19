@@ -39,15 +39,53 @@
       "password": "serenawilliams",
       "isAdmin": "false",
       "id": 5
+    },
+    {
+      "firstName": "Eno",
+      "lastName": "Festus",
+      "email": "eno@gmail.com",
+      "password": "festuseno",
+      "isAdmin": "false",
+      "id": 6
+    },
+    {
+      "firstName": "Loveth",
+      "lastName": "Adeyinka",
+      "email": "loveth@gmail.com",
+      "password": "loveth23",
+      "isAdmin": "false",
+      "id": 7
+    },
+    {
+      "firstName": "Loveth",
+      "lastName": "Adeyinka",
+      "email": "loveth@gmail.com",
+      "password": "loveth23",
+      "isAdmin": "false",
+      "id": 8
     }
   ],
   "clothes": [
     {
       "category": "Women",
       "description": "This cloth was solely designed for MaryJane",
-      "price": "$2,000",
-      "imageUrl": "https://media.gettyimages.com/photos/female-fashion-model-wearing-dress-on-catwalk-picture-id129309333?s=612x612",
+      "price": "$35",
+      "imageUrl": "https://assets.vogue.com/photos/5bacd61df781282f404883bc/master/w_275,c_limit/_RAB0031.jpg",
+      "id": 1
+    },
+    {
+      "category": "Men",
+      "description": "This cloth was solely designed for Mark",
+      "price": "$36",
+      "imageUrl": "https://assets.vogue.com/photos/5bacd61df781282f404883bc/master/w_275,c_limit/_RAB0031.jpg",
       "id": 2
+    },
+    {
+      "category": "Children",
+      "description": "This cloth was solely designed for Fire",
+      "price": "$350",
+      "imageUrl": "https://assets.vogue.com/photos/5bacd61df781282f404883bc/master/w_275,c_limit/_RAB0031.jpg",
+      "id": 3
     }
   ]
 }

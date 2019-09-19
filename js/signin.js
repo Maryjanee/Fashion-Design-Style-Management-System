@@ -10,7 +10,7 @@ function loginUser() {
       alert("Please enter your password");
     } else {
       $.ajax({
-        url: url + `?email=${email}&&password=${password}`,
+        url: url + `/?email=${email}&&password=${password}`,
         type: 'GET',
         dataType: 'json'
       }).done((data) => {

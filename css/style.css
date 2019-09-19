@@ -6,7 +6,7 @@ body{
 	margin:0;
 	background-color:#f4f4f4;
 }
-.container{
+.full-width{
 	width:80%;
 	margin:auto;
 	overflow:hidden; 
@@ -23,14 +23,14 @@ ul{
 .button_1{
     margin-top: 1.5em;
 	height:35px;
-	background:#e8491d;
+	background:#5680e9;
 	border:none;
 	padding-left:20px;
 	padding-right:20px;
 	color:#ffffff;
 }
 .button_2{
-    color:#e8491d;
+    color:#5680e9;
     text-decoration: none
 }
 .dark{
@@ -45,7 +45,7 @@ header{
 	color:#ffffff;
 	padding-top:30px;
 	min-height:70px;
-	border-bottom:#e8491d 3px solid;
+	border-bottom:#5680e9 3px solid;
 }
 header a{
 	color:#ffffff;
@@ -54,14 +54,14 @@ header a{
 	font-size:16px;
 }
 header li{
-	float:left;
+	
 	display:inline;
 	padding: 0 20px 0 20px;
 }
-header #branding{
+header #brand{
 	float:left;
 }
-header#branding h1{
+header#brand h1{
 	margin:0;
 }
 header nav{
@@ -69,7 +69,7 @@ header nav{
 	margin-top:10px; 
 }
 header .highlight, header .current a{
-	color:#e8491d;
+	color:#5680e9;
 	font-weight:bold;
 }
 header a:hover{
@@ -151,12 +151,12 @@ footer{
 	padding:20px;
 	margin-top:20px;
 	color:#ffffff;
-	background-color:#e8491d;
+	background:#35424a;
 	text-align:center;
 }
 /* Media Queries */
 @media(max-width:768px){
-	header #branding,
+	header #brand,
 	header nav,
 	header nav li,
 	#newsletter h1,
@@ -279,9 +279,9 @@ input {
 #form-button {
     display: inline-block;
     margin-left: 6.7rem;
-    background: #e8491d;
+    background: #5680e9;
     border-radius: 100px;
-    border-color: #e8491d;
+    border-color: #5680e9;
     border-style: solid;
     height: 3rem;
     line-height: 50px;
