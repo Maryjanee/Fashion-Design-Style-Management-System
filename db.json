@@ -2,11 +2,52 @@
   "users": [
     {
       "id": 1,
-      "firstName": "MaryJane",
-      "lastName": "Uche",
-      "password": "myfather",
-      "email": "maryJane@gmail.com",
+      "firstName": "Mary",
+      "lastName": "Jane",
+      "email": "maryjane@gmail.com",
+      "password": "franklin",
       "isAdmin": true
+    },
+    {
+      "id": 2,
+      "firstName": "Usman",
+      "lastName": "Adio",
+      "email": "usmanadio@gmail.com",
+      "password": "franklinfrank",
+      "isAdmin": false
+    },
+    {
+      "firstName": "Sara",
+      "lastName": "Fina",
+      "email": "sarafina@gmail.com",
+      "password": "sarafina",
+      "isAdmin": "false",
+      "id": 3
+    },
+    {
+      "firstName": "Serena",
+      "lastName": "Williams",
+      "email": "serenawilliams@yahoo.co.uk",
+      "password": "serenawilliams",
+      "isAdmin": "false",
+      "id": 4
+    },
+    {
+      "firstName": "Serena",
+      "lastName": "Williams",
+      "email": "serenawilliams@yahoo.co.uk",
+      "password": "serenawilliams",
+      "isAdmin": "false",
+      "id": 5
+    }
+  ],
+  "clothes": [
+    {
+      "category": "Women",
+      "description": "This cloth was solely designed for MaryJane",
+      "price": "$2,000",
+      "imageUrl": "https://media.gettyimages.com/photos/female-fashion-model-wearing-dress-on-catwalk-picture-id129309333?s=612x612",
+      "id": 2
     }
   ]
 }

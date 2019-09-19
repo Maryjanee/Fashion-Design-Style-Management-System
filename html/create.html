@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create designs</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Fashion</span>Eye</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="#">Create Design</a></li>
+            <li class="current"><a href="delete.html">Delete Design</a></li>
+            <li class="current"><a href="update.html">Update Design</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="panel-wrapper">
+      <div id="main-wrapper">
+        <span id="reset">Design Details</span>
+        <div id="message-box"></div>
+        <form id="pValid" action="http://localhost:3000/clothes">
+          <label for="category" class=cPassword>Design Category</label>
+          <input type="text" id="category" placeholder="Enter design category...">
+          <label for="size" class=cPassword>Cloth size</label>
+          <input type="text" id="size" placeholder="Enter cloth size...">
+          <label for="description" class=cPassword>Description</label>
+          <input type="text" id="description" placeholder="Enter description...">
+          <label for="price" class=cPassword>Price</label>
+          <input type="text" id="price" placeholder="Enter price here...">
+          <label for="imageURL" class=cPassword>Image URL</label>
+          <input type="text" id="image-url" placeholder="Enter image URL here...">
+          <button id="form-button" onclick="createDesign()">Submit</button>
+        </form>
+      </div>
+      <footer>
+        <p>Acme Web Design, Copyright &copy; 2019</p>
+      </footer>
+    </div>
+  </body>
+  <script src="../js/jQuery-min-3.4.1.js"></script>
+  <script src="../js/create.js"></script>
+
+</html>

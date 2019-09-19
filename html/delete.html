@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Delete designs</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Fashion</span>Eye</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="create.html">Create Design</a></li>
+            <li class="current"><a href="#">Delete Design</a></li>
+            <li class="current"><a href="update.html">Update Design</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="panel-wrapper">
+      <div id="main-wrapper">
+        <span id="reset">Delete a specific design</span>
+        <div id="message-box"></div>
+        <form id="pValid" action="http://localhost:3000/clothes">
+          <label for="imageURL" class=cPassword>Image URL</label>
+          <input type="text" id="image-url" placeholder="Enter image URL here...">
+          <button id="form-button" onclick="deleteDesign()">Delete</button>
+        </form>
+      </div>
+      <footer>
+        <p>Acme Web Design, Copyright &copy; 2019</p>
+      </footer>
+    </div>
+  </body>
+  <script src="../js/jQuery-min-3.4.1.js"></script>
+  <script src="../js/delete.js"></script>
+
+</html>
