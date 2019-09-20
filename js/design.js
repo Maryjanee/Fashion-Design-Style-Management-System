@@ -30,10 +30,8 @@ $(document).ready(function () {
       url: `http://localhost:3000/clothes/${id}`,
       dataType: "json"
     }).done(function (data) {
-      if (!data) {
-        alert('value does not exit');
-      } else {
-        $("#myRow").append(`
+      $("#myRow").hide();
+      $("#Row").append(`
         <div class="col-4 mt-5 mb-5">
         <img class="design image" src="../img/4th.jpg"/>
         <h1 class='text-capitalize font-weight-bold'>${data.category}</h1>
@@ -41,7 +39,6 @@ $(document).ready(function () {
         <p>${data.price}</p>
         </div>
       `)
-      }
     }
     )
   })

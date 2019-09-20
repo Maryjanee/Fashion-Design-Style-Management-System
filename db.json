@@ -55,6 +55,22 @@
       "password": "ikenna1234",
       "isAdmin": "false",
       "id": 7
+    },
+    {
+      "firstName": "Alexis",
+      "lastName": "Akpagbue",
+      "email": "alexis@gmail.com",
+      "password": "alexisAkpagbue",
+      "isAdmin": "false",
+      "id": 8
+    },
+    {
+      "firstName": "Alexis",
+      "lastName": "Akpagbue",
+      "email": "alexis@gmail.com",
+      "password": "alexisAkpagbue",
+      "isAdmin": "false",
+      "id": 9
     }
   ],
   "clothes": [
