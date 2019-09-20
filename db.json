@@ -5,7 +5,7 @@
       "firstName": "Mary",
       "lastName": "Jane",
       "email": "maryjane@gmail.com",
-      "password": "franklin",
+      "password": "akpagbuemj12",
       "isAdmin": true
     },
     {
@@ -33,80 +33,114 @@
       "id": 4
     },
     {
-      "firstName": "Serena",
-      "lastName": "Williams",
-      "email": "serenawilliams@yahoo.co.uk",
-      "password": "serenawilliams",
-      "isAdmin": "false",
-      "id": 5
-    },
-    {
       "firstName": "Eno",
       "lastName": "Festus",
       "email": "eno@gmail.com",
       "password": "festuseno",
       "isAdmin": "false",
+      "id": 5
+    },
+    {
+      "firstName": "Loveth",
+      "lastName": "Adeyinka",
+      "email": "loveth@gmail.com",
+      "password": "loveth23",
+      "isAdmin": "false",
       "id": 6
     },
     {
-      "firstName": "Loveth",
-      "lastName": "Adeyinka",
-      "email": "loveth@gmail.com",
-      "password": "loveth23",
+      "firstName": "Victor",
+      "lastName": "ikenna",
+      "email": "ikenna@gmail.com",
+      "password": "ikenna1234",
       "isAdmin": "false",
       "id": 7
-    },
-    {
-      "firstName": "Loveth",
-      "lastName": "Adeyinka",
-      "email": "loveth@gmail.com",
-      "password": "loveth23",
-      "isAdmin": "false",
-      "id": 8
     }
   ],
   "clothes": [
     {
-      "category": "Women",
-      "description": "This cloth was solely designed for MaryJane",
+      "category": "Caribean",
+      "description": "This is a classic carribean design ",
       "price": "$35",
-      "imageUrl": "https://assets.vogue.com/photos/5bacd61df781282f404883bc/master/w_275,c_limit/_RAB0031.jpg",
+      "imageUrl": "https://www.vogue.co.uk/shows/spring-summer-2020-ready-to-wear/moschino",
       "id": 1
     },
     {
-      "category": "Men",
-      "description": "This cloth was solely designed for Mark",
-      "price": "$36",
+      "category": "Asian",
+      "description": "This cloth was solely designed for the classic asian man ",
+      "price": "$122",
       "imageUrl": "https://assets.vogue.com/photos/5bacd61df781282f404883bc/master/w_275,c_limit/_RAB0031.jpg",
       "id": 2
     },
     {
-      "category": "Children",
-      "description": "This cloth was solely designed for Fire",
+      "category": "Jamaican ",
+      "description": "Tagged Jamiacan fever, showing a rich display of jamaican culture ",
       "price": "$350",
       "imageUrl": "https://assets.vogue.com/photos/5bacd61df781282f404883bc/master/w_275,c_limit/_RAB0031.jpg",
       "id": 3
     },
     {
-      "category": "Women",
+      "category": "Jamaican",
       "description": "This cloth was solely designed for Fire",
-      "price": "$350",
+      "price": "$322",
       "imageUrl": "https://assets.vogue.com/photos/5bacd61df781282f404883bc/master/w_275,c_limit/_RAB0031.jpg",
       "id": 4
     },
     {
-      "category": "Men",
-      "description": "This cloth was solely designed for Fire",
-      "price": "$350",
+      "category": "Asian",
+      "description": "This design from makes you stand out from the crowd and is made with unique asian prints",
+      "price": "$308",
       "imageUrl": "https://assets.vogue.com/photos/5bacd61df781282f404883bc/master/w_275,c_limit/_RAB0031.jpg",
       "id": 5
     },
     {
-      "category": "Children",
-      "description": "This cloth was solely designed for Fire",
-      "price": "$350",
+      "category": "Jamaican",
+      "description": "Made with the finest fabrics in Jamican,this print works really well with a traditional event",
+      "price": "$280",
       "imageUrl": "https://assets.vogue.com/photos/5bacd61df781282f404883bc/master/w_275,c_limit/_RAB0031.jpg",
       "id": 6
+    },
+    {
+      "category": "Carribean",
+      "description": "Stand out looking spot on with a great design form our top designer",
+      "price": "$115",
+      "imageUrl": "https://assets.vogue.com/photos/5bacd61df781282f404883bc/master/w_275,c_limit/_RAB0031.jpg",
+      "id": 7
+    },
+    {
+      "category": "Jamiacan",
+      "description": "Unique and bespoke to give you that detailed awesome look to an that asian event",
+      "price": "$420",
+      "imageUrl": "https://assets.vogue.com/photos/5bacd61df781282f404883bc/master/w_275,c_limit/_RAB0031.jpg",
+      "id": 8
+    },
+    {
+      "category": "Asian",
+      "description": "TThis design from makes you stand out from the crowd and is made with unique asian prints",
+      "price": "$215",
+      "imageUrl": "https://assets.vogue.com/photos/5bacd61df781282f404883bc/master/w_275,c_limit/_RAB0031.jpg",
+      "id": 9
+    },
+    {
+      "category": "Jamiacan",
+      "description": "This cloth was solely designed for Fire",
+      "price": "$50",
+      "imageUrl": "https://assets.vogue.com/photos/5bacd61df781282f404883bc/master/w_275,c_limit/_RAB0031.jpg",
+      "id": 10
+    },
+    {
+      "category": "Carribean",
+      "description": "Stand out looking spot on with a great design form our top designer",
+      "price": "$310",
+      "imageUrl": "https://assets.vogue.com/photos/5bacd61df781282f404883bc/master/w_275,c_limit/_RAB0031.jpg",
+      "id": 11
+    },
+    {
+      "category": "Jamiacan",
+      "description": "This design from makes you stand out from the crowd and is made with unique jamiacan prints",
+      "price": "$120",
+      "imageUrl": "https://vg-images.condecdn.net/image/QzWYwqZ443L/crop/810/f/csc_1234.jpg",
+      "id": 12
     }
   ]
 }
